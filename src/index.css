@@ -405,14 +405,14 @@ main {
 
 .nuevo-gasto {
     position: fixed;
-    bottom: 5rem;
-    right: 5rem;
+    bottom: 1rem;
+    right: 40%;
     
 }
 
 .nuevo-gasto svg:hover {
     cursor: context-menu;
-    transform: scale(2.4);
+    transform: scale(1.5);
 }
 
 .modal {
