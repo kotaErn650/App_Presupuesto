@@ -5,6 +5,7 @@ import { defineConfig } from 'vite';
 
 // llamando Mi puerto 3000 local
 export default defineConfig({
+  base: '/App_Presupuesto/',
   plugins: [react()],
   server: {
     port: 3000,
